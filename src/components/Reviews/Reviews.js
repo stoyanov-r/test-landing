@@ -10,8 +10,8 @@ const blockquotes = [
   { author: 'Nibh nisl', text: 'Condimentum id venenatis a condimentum vitae sapien pellentesque. At tellus at urna condimentum mattis pellentesque id nibh tortor.' },
 ]
   .map((item, i) =>
-    <div>
-      <blockquote className={classes.blockquote} key={item.author + i}>
+    <div key={item.author + i}>
+      <blockquote className={classes.blockquote} >
         <cite className={classes.author}>{item.author}</cite>
         <p className={classes.text}>{item.text}</p>
       </blockquote>

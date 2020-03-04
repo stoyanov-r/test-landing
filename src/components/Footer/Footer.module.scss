@@ -1,0 +1,23 @@
+.Footer {
+  padding: 45px 0;
+  background-color: #000000;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #adadad;
+  margin: 0;
+}
+
+@media(min-width: 1920px) {
+  .Footer {
+    padding: 52px 0;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+
+  }
+}

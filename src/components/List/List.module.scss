@@ -1,0 +1,48 @@
+.list {
+  margin: 0;
+  padding-right: 20px;
+}
+
+.termin {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.630667px;
+  color: #fbfbfb;
+  padding-left: 70px;
+  padding-bottom: 20px;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: 0;
+  }
+}
+
+.definition {
+  margin: 0;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.487333px;
+  color: #adadad;
+  padding-left: 70px;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 1920px) {
+  .list {
+    padding-bottom: 10px;
+  }
+  
+  .termin {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+  }
+}

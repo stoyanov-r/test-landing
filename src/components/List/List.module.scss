@@ -4,6 +4,7 @@
 }
 
 .termin {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
@@ -11,6 +12,7 @@
   color: #fbfbfb;
   padding-left: 70px;
   padding-bottom: 20px;
+  padding-top: 5px;
   position: relative;
 
   &::before {
@@ -21,6 +23,7 @@
     background-color: #c4c4c4;
     position: absolute;
     left: 0;
+    top: -5px;
   }
 }
 
@@ -32,7 +35,8 @@
   letter-spacing: 0.487333px;
   color: #adadad;
   padding-left: 70px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
+  padding-right: 2px;
 }
 
 @media (min-width: 1920px) {
@@ -44,5 +48,9 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 26px;
+  }
+
+  .definition {
+    padding-bottom: 50px;
   }
 }

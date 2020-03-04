@@ -14,7 +14,7 @@ const LastFeatures = ({winWidth}) => {
   let wrapStyle = {};
   if (winWidth >= 1920) {
     style = {display: 'flex', justifyContent: 'space-between', width: '100%'}
-    wrapStyle =   {width: 355 }
+    wrapStyle =   {width: 365 }
   }
   return (
     <section className={classes.LastFeatures}>

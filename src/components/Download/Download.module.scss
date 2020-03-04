@@ -2,16 +2,17 @@
   list-style: none;
   display: flex;
   padding: 0;
+}
 
-  li a {
-    display: block;
-    width: 50px;
-    height: 50px;
-    font-size: 0;
-    line-height: 0;
-    &:hover {
-      opacity: 0.7;
-    }
+.app_store,
+.google_play {
+  display: block;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  line-height: 0;
+  &:hover {
+    opacity: 0.7;
   }
 }
 .app_store {
@@ -26,15 +27,18 @@
 @media (min-width: 1920px) {
   .download_list {
     margin: 0 auto;
-
-    li a {
-      width: 250px;
-      height: 73px;
-    }
+    flex-direction: row-reverse;
+  }
+  .app_store,
+  .google_play {
+    width: 250px;
+    height: 73px;
+    margin: 0;
   }
 
   .app_store {
     background-image: url("/img/Header/Header__app-store--big.svg");
+    margin-right: 35px;
   }
 
   .google_play {

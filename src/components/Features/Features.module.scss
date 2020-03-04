@@ -28,8 +28,10 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
-  padding: 22px 10px;
+  padding: 16px 10px;
   border: none;
+  margin-top: 15px;
+  
 
   &:hover {
     cursor: pointer;
@@ -43,11 +45,11 @@
 
 @media (min-width: 1920px) {
   .Features {
-    padding-bottom: 255px;
+    padding-bottom: 155px;
   }
   
   .headline {
-    width: 650px;
+    width: 590px;
     font-weight: 600;
     font-size: 40px;
     line-height: 54px;
@@ -57,9 +59,15 @@
   }
   .image {
     width: 100%;
+    padding-left: 143px;
+
   }
 
   .list {
-    width: 650px;
+    width: 600px;
+  }
+
+  .button {
+    margin-top: 20px;
   }
 }

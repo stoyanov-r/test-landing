@@ -1,5 +1,5 @@
 .Reviews {
-  padding: 100px 0;
+  padding: 86px 0 79px 0;
 }
 
 .headline {
@@ -8,7 +8,7 @@
   line-height: 33px;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #fbfbfb;
   letter-spacing: -0.0954546px;
 }
@@ -36,6 +36,7 @@
   line-height: 19px;
   letter-spacing: 0.401333px;
   color: #fbfbfb;
+  padding-right: 5px;
 }
 
 .previous,
@@ -66,6 +67,10 @@
 
 @media (min-width: 1920px) {
 
+  .Reviews {
+    padding: 100px 0 188px 0;
+  }
+
   .headline {
     width: 600px;
     font-weight: 300;
@@ -76,13 +81,14 @@
   }
 
   .slider {
-    width: 740px;
+    width: 797px;
     margin-left: auto;
   }
 
   .blockquote {
     width: 470px;
-    padding: 0 110px;
+    padding-left: 115px;
+    margin-top: 7px;
   }
 
   .previous,
@@ -90,5 +96,9 @@
     width: 50px;
     height: 50px;
     background-image: url("/img/Reviews/Reviews__arrow--big.svg");
+  }
+
+  .text {
+    padding-right: 40px;
   }
 }

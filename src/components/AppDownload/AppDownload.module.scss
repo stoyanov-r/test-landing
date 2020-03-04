@@ -22,3 +22,17 @@
 .download {
   margin: 0 auto;
 }
+
+@media (min-width: 1920px) {
+
+  .AppDownload {
+    padding-bottom: 145px;
+  }
+
+  .action {
+    font-size: 35px;
+    line-height: 48px;
+    padding-bottom: 55px;
+  }
+}
+ 

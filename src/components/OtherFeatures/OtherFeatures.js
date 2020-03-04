@@ -15,7 +15,7 @@ const OtherFeatures = ({ winWidth }) => {
       <WithWrapper>
       {winWidth >= 1920
           && <picture className={classes.picture}>
-            <img className={classes.image} src='/img/Features/Features__img--desktop.png' alt='IMG' />
+            <img className={classes.image} src='/img/OtherFeatures/OtherFeatures__img.png' alt='IMG' />
           </picture>
         }
         <div className={classes.wrapper}>
